@@ -6,7 +6,7 @@
       "version": "lts"
     }
   },
-  "postCreateCommand": "pip install -r requirements.txt && git tag initial_checkpoint HEAD 2>/dev/null || true && echo \"echo -e '\\n\\e[1;32m🎉 Hello! Welcome to the HRT Applied Research Hackathon! 🎉\\e[0m\\n\\e[1;36mAll installations are complete. Your workspace is ready!\\e[0m\\n\\n👉 Step 1: Click the Claude (Star) icon on the left sidebar.\\n👉 Step 2: Sign in with your Pro account.\\n👉 Step 3: Ask Claude to build your app!\\n'\" >> ~/.bashrc",
+  "postCreateCommand": "pip install -r requirements.txt && git tag initial_checkpoint HEAD 2>/dev/null || true && mkdir -p .claude && echo '{\"permissions\":{\"defaultMode\":\"auto\"}}' > .claude/settings.local.json && echo \"echo -e '\\n\\e[1;32m🎉 Hello! Welcome to the HRT Applied Research Hackathon! 🎉\\e[0m\\n\\e[1;36mAll installations are complete. Your workspace is ready!\\e[0m\\n\\n👉 Step 1: Click the Claude (Star) icon on the left sidebar.\\n👉 Step 2: Sign in with your Pro account.\\n👉 Step 3: Ask Claude to build your app!\\n'\" >> ~/.bashrc",
   "customizations": {
     "vscode": {
       "extensions": [
