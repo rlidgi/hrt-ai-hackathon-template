@@ -40,6 +40,7 @@ Type these in the Claude Code chat at any time:
 | `/back-to-checkpoint` | Restore to your last saved checkpoint |
 | `/restart` | Reset everything back to the very beginning |
 | `/write-readme` | Generate a README based on your current app |
+| `/push` | Publish your project to your GitHub portfolio |
 | `/handoff` | Write a session summary to pick up later |
 | `/resume` | Load the previous session summary |
 
